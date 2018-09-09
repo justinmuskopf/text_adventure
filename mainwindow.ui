@@ -66,6 +66,12 @@ color: rgb(255, 255, 255);</string>
             </item>
             <item alignment="Qt::AlignRight">
              <widget class="QProgressBar" name="healthBar">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="maximumSize">
                <size>
                 <width>200</width>
@@ -96,6 +102,12 @@ color: rgb(255, 255, 255);</string>
             </item>
             <item alignment="Qt::AlignRight">
              <widget class="QProgressBar" name="manaBar">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="maximumSize">
                <size>
                 <width>200</width>
@@ -126,6 +138,12 @@ color: rgb(255, 255, 255);</string>
             </item>
             <item alignment="Qt::AlignRight">
              <widget class="QProgressBar" name="xpBar">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
               <property name="maximumSize">
                <size>
                 <width>200</width>

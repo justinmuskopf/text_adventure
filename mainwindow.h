@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QProgressBar>
 #include "gamesession.h"
+#include "typewriter.h"
 
 namespace Ui {
 class MainWindow;
@@ -26,12 +27,15 @@ private slots:
     void on_healthBar_valueChanged(int value);
     void on_manaBar_valueChanged(int value);
     void on_xpBar_valueChanged(int value);
+    void on_gameTextReady(QString text);
+    void addToPrompt(QChar);
 private:
     Ui::MainWindow *ui;
     QProgressBar *healthBar;
     QProgressBar *manaBar;
     QProgressBar *xpBar;
     GameSession *game;
+    TypeWriter typewriter;
 
     void updateStatusBar(QProgressBar *bar, int value);
 

@@ -37,4 +37,5 @@ void GameSession::init()
     player -> setHealth(100);
     player -> setMaxMana(200);
     player -> setMana(100);
+    emit textReady("Hello, this is a test of the print system.");
 }

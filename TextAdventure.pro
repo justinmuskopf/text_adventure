@@ -34,7 +34,8 @@ SOURCES += \
     person.cpp \
     inventory.cpp \
     armor.cpp \
-    gamesession.cpp
+    gamesession.cpp \
+    typewriter.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -46,7 +47,8 @@ HEADERS += \
     person.h \
     inventory.h \
     armor.h \
-    gamesession.h
+    gamesession.h \
+    typewriter.h
 
 FORMS += \
         mainwindow.ui

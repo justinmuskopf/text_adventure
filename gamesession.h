@@ -13,6 +13,7 @@ signals:
     void playerMaxHealthChanged(int value);
     void playerManaChanged(int value);
     void playerMaxManaChanged(int value);
+    void textReady(QString text);
 private slots:
     void on_playerHealthChanged(int value);
     void on_playerMaxHealthChanged(int value);
